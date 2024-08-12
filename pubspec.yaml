@@ -1,0 +1,40 @@
+name: aksamedia_welcome_page
+description: "A new Flutter project."
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.1 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: fonts/Inter/Inter-Black.ttf
+        - asset: fonts/Inter/Inter-Bold.ttf
+        - asset: fonts/Inter/Inter-ExtraBold.ttf
+        - asset: fonts/Inter/Inter-ExtraLight.ttf
+        - asset: fonts/Inter/Inter-Light.ttf
+        - asset: fonts/Inter/Inter-Medium.ttf
+        - asset: fonts/Inter/Inter-Regular.ttf
+        - asset: fonts/Inter/Inter-SemiBold.ttf
+        - asset: fonts/Inter/Inter-Thin.ttf
