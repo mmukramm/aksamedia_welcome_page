@@ -43,6 +43,13 @@ class _WelcomePageState extends State<WelcomePage> {
   }
 
   @override
+  void dispose() {
+    super.dispose();
+    _pageViewController.dispose();
+    _currentPage.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: ValueListenableBuilder(
